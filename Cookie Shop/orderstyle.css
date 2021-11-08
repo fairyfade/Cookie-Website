@@ -1,0 +1,112 @@
+body {
+    background: #f2e4af;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #f2e4af;
+    color: black;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+img{
+    border-radius: 50%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+.available-cookies {
+    font-size: 25px;
+    background:white;
+    border: 5px solid;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.available-cookies h3 {
+    color: #ccf6f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.cookie-order {
+    font-size: 25px;
+    background:white;
+    border: 5px solid;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.cookie-order h3 {
+    color:#f0aff2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+
+.bottom-page{
+    font-size: 25px;
+    background-color:white;
+    border: 5px solid;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+.bottom-page h3{
+    color:#b4f2af;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+  
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+input[type=submit]:hover {
+    background-color: white;
+  }
+  
+  
+.container {
+    border-radius: 5px;
+    background-color:white;
+    padding: 20px;
+  }

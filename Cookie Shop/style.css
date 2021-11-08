@@ -1,0 +1,132 @@
+body{
+    background: #f2e4af;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-us{
+    font-size: 24px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: #f0aff2;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: white;
+    color: #b4f2af;
+    font-size: 30px;
+    border: 5px solid black;
+    border-radius: 4px;
+  }
+
+.header h1 {
+  text-shadow: 2px 2px 8px #000000;
+  color: black;
+}
+
+.shoppics {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+ .shopinner {
+    height: 30vh;
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 60px;
+  }
+
+.shopinner button{
+  margin-left: 105px;
+  margin-top: 75px;
+}  
+  img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    vertical-align: bottom;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 4px;
+  }
+
+.bottom-page{
+  font-size: 25px;
+  background: white;
+  border: 5px solid;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 5px solid;
+  border-radius: 4px;
+}
+
+.bottom-page h4{
+  color: #ccf6f5;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.item-name{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 85px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background: white;
+  color:black;
+  padding: 12px 20px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background: white;
+}
+
+.my-cart {
+  text-align: center;
+  margin-bottom: 200px;
+  margin-right: 20px;
+}
+
+.my-cart button {
+  background: #b4f2af;
+  font-size: 25px;
+}
+
+.container {
+  border-radius: 5px;
+  background:white;
+  padding: 20px;
+}
